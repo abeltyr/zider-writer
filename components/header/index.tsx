@@ -1,16 +1,9 @@
 import React from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { HeaderContainer, TextContainer, TextLogo } from "./style";
+import { HeaderContainer, TextLogo } from "./style";
 
-type Props = {
-    loggedIn?: Boolean;
-    agency?: Boolean;
-    verified?: Boolean;
-    title?: string;
-};
-
-const Header = ({ agency, verified, title }: Props) => {
+const Header = () => {
     const router = useRouter();
     return (
         <HeaderContainer>

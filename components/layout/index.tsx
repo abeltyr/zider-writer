@@ -7,7 +7,7 @@ type Props = {
   title?: string,
   header?: string
 }
-const Layout = ({ children, title = 'This is the default title', header = "User name"}: Props) => {
+const Layout = ({ children, title = 'This is the default title'}: Props) => {
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ const Layout = ({ children, title = 'This is the default title', header = "User 
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Header loggedIn={false} agency={true} verified={false} title={header} />
+      <Header  />
       <Container>
         {children}
       </Container>
