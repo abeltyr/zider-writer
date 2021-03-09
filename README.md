@@ -1,1 +1,1 @@
-This is a Blog writing platform inspired by Notion and medium rich text editor
+This a rich text editor inspired by Notion and medium
