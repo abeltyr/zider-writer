@@ -7,7 +7,6 @@ const Header = () => {
     const router = useRouter();
     return (
         <HeaderContainer>
-            <div style={{ display: "flex" }}>
                 <Image
                     className='ImageLogo'
                     width='35px'
@@ -19,8 +18,6 @@ const Header = () => {
                     }}
                 />
                     
-                publish
-            </div>
         </HeaderContainer>
     );
 };
