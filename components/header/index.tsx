@@ -18,23 +18,6 @@ const Header = () => {
                         router.push("/");
                     }}
                 />
-                <TextLogo style={{ marginLeft: 15 }}
-                    onClick={() => {
-                        router.push("/");
-                    }}>
-                    Story Title
-                </TextLogo>
-                <TextLogo style={{ marginLeft: 15 }}
-                    onClick={() => {
-                        router.push("/");
-                    }}>save
-                </TextLogo>
-                <TextLogo style={{ marginLeft: 15 }}
-                    onClick={() => {
-                        router.push("/");
-                    }}>
-                    Story Title
-                </TextLogo>
                     
                 publish
             </div>
